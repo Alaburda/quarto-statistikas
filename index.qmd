@@ -3,7 +3,7 @@ format:
   html:
     css: index.css
     anchor-sections: false
-    include-in-header: <object file="site_head.html"</object>
+    include-in-header: site_head.html
 sidebar: false
 toc: false
 --- 
@@ -103,5 +103,3 @@ Mūsų neseniai paskelbti blogpostai
 </form>
 
 :::
-
-

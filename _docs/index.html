@@ -55,19 +55,50 @@ ul.task-list{list-style: none;}
     "search-submit-button-title": "Submit"
   }
 }</script>
-
-
-<link rel="stylesheet" href="styles.css">
-<link rel="stylesheet" href="index.css">
-<meta property="og:title" content="Statistikas">
+<!-- Messenger Chat Plugin Code -->
+  <meta property="og:title" content="Statistikas">
 <meta property="og:description" content="Mūsų neseniai paskelbti blogpostai">
 <meta property="og:site-name" content="Statistikas">
 <meta name="twitter:title" content="Statistikas">
 <meta name="twitter:description" content="Mūsų neseniai paskelbti blogpostai">
 <meta name="twitter:card" content="summary">
-</head>
+</head><body class="nav-sidebar nav-fixed fullcontent"><div id="fb-root"></div>
+    
+    <!-- Your Chat Plugin code -->
+    <div id="fb-customer-chat" class="fb-customerchat">
+      </div>
+      
+      <script>
+      var chatbox = document.getElementById('fb-customer-chat');
+      chatbox.setAttribute("page_id", "113130200562580");
+      chatbox.setAttribute("attribution", "biz_inbox");
+      </script>
+        
+        <!-- Your SDK code -->
+        <script>
+        window.fbAsyncInit = function() {
+          FB.init({
+            xfbml            : true,
+            version          : 'v13.0'
+          });
+        };
+        
+        (function(d, s, id) {
+          var js, fjs = d.getElementsByTagName(s)[0];
+          if (d.getElementById(id)) return;
+          js = d.createElement(s); js.id = id;
+          js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+          fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+        </script>
+          
 
-<body class="nav-sidebar nav-fixed fullcontent">
+
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="index.css">
+
+
+
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
