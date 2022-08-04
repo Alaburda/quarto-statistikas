@@ -1,0 +1,13 @@
+"0","banner(""# <span style='color:#009AF1'>Create delightful software</span><br>with Jupyter Notebooks
+
+### Write, test, document, and distribute software packages and technical articles — all in one place, your notebook.
+
+{btn('Get started', 'getting_started.ipynb')}
+
+{img('card.png', style='margin-top: 40px; margin-bottom: 40px', link=True)}"", "".content-block"")
+"
+"2","Error in parse(text = text, keep.source = FALSE) : 
+  <text>:1:6: unexpected ']'
+1: klass]
+         ^
+"

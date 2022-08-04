@@ -1,0 +1,107 @@
+---
+format:
+  html:
+    css: index.css
+    anchor-sections: false
+    include-in-header: <object file="site_head.html"</object>
+sidebar: false
+toc: false
+--- 
+
+
+::: {.hero-banner .content-block}
+
+# [Statistinės analizės ir konsultacijos]{style="color:#009AF1"}
+
+### Mes padedame atsakyti į mokslinių ir klinikinių tyrimų klausimus atlikdami statistines analizes, konsultuodami techniniais klausimais bei rengdami kursus jums bei jūsų grupei.
+
+[Susisiekite](getting_started.ipynb){.btn-action-primary .btn-action .btn .btn-success .btn-lg role="\"button\""}\n
+
+
+[![](images/card.png)](images/card.png){style="margin-top: 40px; margin-bottom: 40px"}\
+:::
+
+::: {.hero-banner .mid-content .column-screen}
+
+## <span style='color:#009AF1'>Trusted</span> in industry
+
+::: {.grid style="column-gap: 50px"}
+
+:::{.g-col-12 .g-col-sm-6 .g-col-md-3}  
+Netflix 
+:::
+
+:::{.g-col-12 .g-col-sm-6 .g-col-md-3}  
+Lyft 
+:::
+
+:::
+
+:::
+
+::: {.hero-banner .content-block}
+
+
+## Kuo <span style='color:#009AF1'>Statistiko</span> paslaugos kitokios?
+
+::: {.grid .gap-4 style="padding-bottom: 60px"}
+
+::: {.feature .g-col-12 .g-col-sm-6 .g-col-md-4}
+[{{< fa file-word >}}]{style="font-size: 45px"}
+
+**Statistinės analizės**
+Analizės pateikiamos Word formatu su grafikais, lentelėmis ir metodu aprašymu.
+:::
+
+::: {.feature .g-col-12 .g-col-sm-6 .g-col-md-4}
+[{{< fa user-plus >}}]{style="font-size: 45px"}
+
+**Imties dydis**
+Prieš tyrimą galime pateikti mažiausią reikalingą tiriamųjų skaičių, jog užsitikrintumėte pakankamai tikslius tyrimo rezultatus.
+:::
+
+::: {.feature .g-col-12 .g-col-sm-6 .g-col-md-4}
+[{{< fa chart-bar >}}]{style="font-size: 45px"}
+
+**Multivariacinis modeliavimas**
+Kai nebeužtenka paprasto statistinio testo, o reikalingas statistinis modelis ar išgyvenamumo analizė.
+:::
+
+::: {.feature .g-col-12 .g-col-sm-6 .g-col-md-4}
+[{{< fa chalkboard-teacher >}}]{style="font-size: 45px"}
+
+**Mokymai ir konsultacijos**
+Mokymai grupėms ir individualios konsultacijos apie R, SPSS, Excel ir Power BI. Programos gali būti priderintos pagal poreikį.
+:::
+
+:::
+
+:::
+
+::: {.hero-banner .mid-content .column-screen}
+
+## Blog postai
+
+Mūsų neseniai paskelbti blogpostai
+
+:::
+
+
+
+::: {.hero-banner .content-block}
+
+<form name="contact" netlify>
+  <p>
+    <label>Name <input type="text" name="name" /></label>
+  </p>
+  <p>
+    <label>Email <input type="email" name="email" /></label>
+  </p>
+  <p>
+    <button type="submit">Send</button>
+  </p>
+</form>
+
+:::
+
+

@@ -1,0 +1,14 @@
+{
+  "hash": "86859146428935fb9318dfc67149677a",
+  "result": {
+    "markdown": "---\ntitle: \"website-quarto-statistikas\"\nformat:\n  html:\n    css: index.css\n---\n\n\n::: {.hero-banner .content-block}\n# [Create delightful software]{style=\"color:#009AF1\"}<br>with Jupyter Notebooks\n\n### Write, test, document, and distribute software packages and technical articles --- all in one place, your notebook.\n\n[Get started](getting_started.ipynb){.btn-action-primary .btn-action .btn .btn-success .btn-lg role=\"\\\"button\\\"\"}\\n\n\n[![](images/card.png)](images/card.png){style=\"margin-top: 40px; margin-bottom: 40px\"}\\\n:::\n\n::: {#overview .hero-banner .mid-content}\nTestas\n:::\n\n::: {.grid .gap-4 style=\"padding-bottom: 60px\"}\n\n::: {.feature .g-col-12 .g-col-sm-6 .g-col-md-4}\nBeautiful technical documentation and scientific articles with Quarto\n:::\n\n:::\n\n\n::: {.cell}\n\n```{.r .cell-code}\nbanner <- function(txt, klass = \"\", md = TRUE) {\n  res <- glue::glue(\"::: {{.hero-banner [klass]}}\\n\\n[txt]\\n\\n:::\\n\", .open = \"[\", .close = \"]\")\n  \n  if (md) {\n    return(rmarkdown::render(res))\n  } else {\n    print(res)\n  }\n  \n}\n```\n:::\n\n\nThis is a Quarto website.\n\nTo learn more about Quarto websites visit <https://quarto.org/docs/websites>.\n",
+    "supporting": [],
+    "filters": [
+      "rmarkdown/pagebreak.lua"
+    ],
+    "includes": {},
+    "engineDependencies": {},
+    "preserve": {},
+    "postProcess": true
+  }
+}
